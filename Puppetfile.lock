@@ -1,0 +1,23 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    example42/apache (2.1.2)
+      example42/puppi (>= 2.0.0)
+    example42/monitor (2.0.1)
+      example42/puppi (>= 2.0.0)
+    example42/nagios (2.0.9)
+      example42/apache (>= 2.0.0)
+      example42/nrpe (>= 2.0.0)
+      example42/puppi (>= 2.0.0)
+      ripienaar/concat (>= 0.0.1)
+    example42/nrpe (2.0.9)
+      example42/puppi (>= 2.0.0)
+    example42/puppi (2.1.3)
+    puppetlabs/stdlib (4.1.0)
+    ripienaar/concat (0.2.0)
+
+DEPENDENCIES
+  example42/monitor (>= 0)
+  example42/nagios (>= 0)
+  puppetlabs/stdlib (>= 0)
+

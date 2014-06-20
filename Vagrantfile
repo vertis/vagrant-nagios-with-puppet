@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "precise64"
+  config.vm.box = "hashicorp/precise64"
   
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
